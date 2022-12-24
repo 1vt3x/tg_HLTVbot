@@ -122,8 +122,8 @@ def get_actualmatches():
     return tournaments, teams, timeOfMatch_str, typesOfMatches_str, links
 
 
+bot = telebot.TeleBot("Your token")
 
-bot = telebot.TeleBot("5697822865:AAFlny2ecdUqyw0yzOAPoMPnnirEOtcCGTg")
 
 
 @bot.message_handler(commands=["start"])
